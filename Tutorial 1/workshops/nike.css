@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300&display=swap');
+
+nav {             /* Gray */
+    height:100px;
+    padding-left: 20px;
+    padding-right: 20px;   
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items: center;
+
+  }
+  
+  nav > h1{         /* Red */
+    width:160px;
+    font-size: 60px;
+    justify-self: start;
+  }
+  
+  nav > img{        /* Cyan */
+    width: 200px;
+    justify-self: center;
+  }
+  
+  nav > div{        /* Green */
+    height:60px;
+    width: 160px;
+    justify-self:end;
+
+    width:180px;
+    height:60px;
+    
+    justify-self: end; /* If using Grid*/
+  
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  nav > div > img{  /* Blue */
+    height:60px;
+  }
+
+
+
+
+.Group-1 > .product-card {
+  background-color:rgb(0,255,0,0.25); /* To help you visualize the size of the product-card*/
+  
+  
+}
+.Group-1 {
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+    
+.Group-1 > .product-card {
+    background-color:rgb(0,255,0,0.25); 
+    /* To help you visualize the size 
+    of the product-card*/
+    
+    width: 400px;
+    padding: 20px;
+}
+    
+.Group-1 > .product-card > img{
+    width:100%
+}
+
+
+
+
+
+.Group-2 > .product-card {
+  background-color:rgb(0,255,255,0.25); /* To help you visualize the size of the product-card*/
+  
+  
+}
+.Group-2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+    
+.Group-2 > .product-card {
+    background-color:rgb(0,255,255,0.25); 
+    /* To help you visualize the size 
+    of the product-card*/
+
+    padding-left:20px;
+    padding-right:20px;
+    
+    padding-top:20px;
+    padding-bottom:20px;
+
+    justify-self: center;
+}
+    
+.Group-2 > .product-card > img{
+    width:100%;
+    max-width:400px;
+}
+           
+
+.product-card {
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.product-card > img {
+    width: 100%;
+}
+
+.Group-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Group-3 > .product-card {
+    max-width:400px;
+}
+
+.Group-3 > .fillImage{
+    width:0px;
+    flex: 1 1 auto;
+    object-fit: cover;
+    margin:20px 0 20px;
+    max-height:511px;
+}
+
+.Group-4 {
+    background-color:#f6f6f6;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "shoeImage description"
+    "productInfo productInfo";
+    
+    padding-bottom: 20px;
+}
+
+.Group-4 > img{
+    grid-area: shoeImage;
+    justify-self: end;
+
+    min-width:200px;
+    max-width:600px;
+    width:100%;
+}
+
+.Group-4  > .product-info{
+    grid-area: productInfo;
+    justify-self: center;
+}
+
+.Group-4 > .description {
+    grid-area: description;
+    justify-self: start;
+
+    max-width: 470px;
+    margin: 0 20px 0 20px;
+    align-self:center;
+}
+           
+footer{
+    height:100vh;
+    width:100%;
+    background-Color:Black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+    
+footer > img{
+    height:10%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Do not worry about the next section, It is only to format the text. You will learn this in a future tutorial.
+*/
+
+h5{
+  font-family: "Helvetica Neue";
+  font-size:16px;
+  padding:10px 0 10px 0;
+  margin:0 0 0 0;
+  font-weight:500;
+}
+
+h6{
+  font-family: "Helvetica Neue";
+  color: rgb(117,117,117);
+  font-size:16px;
+  font-weight:400;
+  padding:0 0 10px 0;
+  margin:0 0 0 0;
+  vertical-align:baseline
+}
+
+h7{
+  font-family: "Helvetica Neue";
+  font-size:16px;
+  font-weight:500;
+  vertical-align:baseline
+}
+
+
+
+
+h5, p{
+    font-family: "Helvetica Neue";
+    font-size:16px;
+    padding:10px 0 10px 0;
+    margin:0 0 0 0;
+    font-weight:500;
+  }
+  
+  h6{
+    font-family: "Helvetica Neue";
+    color: rgb(117,117,117);
+    font-size:16px;
+    font-weight:400;
+    padding:0 0 10px 0;
+    margin:0 0 0 0;
+    vertical-align:baseline
+  }
+  
+  h7{
+    font-family: "Helvetica Neue";
+    font-size:16px;
+    font-weight:500;
+    vertical-align:baseline
+  }
+  
+  
+  
