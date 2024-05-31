@@ -1,0 +1,63 @@
+
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+:root {
+    --color1: #f7f7f7;
+    --color2: #040404;
+    --color3: #3769B6;
+    --color4: #F1D6CB;
+    --color5: #BED3F0;
+    --color6: #06000E; 
+}
+
+.logo {
+    font-family: "Bona Nova", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--color2);
+    font-size: 20px;
+}
+
+.material-icons {
+    color: var(--color2);
+}
+
+body{
+    background-color: var(--color1);
+}
+
+header{
+    display: block;
+    height: 30px;
+    margin: 8px 8px;
+    width:100%;
+    align-content: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: var(--color4);
+}
+
+header nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 4px;
+    
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 16px;
+}
