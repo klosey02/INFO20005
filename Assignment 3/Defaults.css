@@ -88,3 +88,113 @@ footer ul li a{
 footer div{
     padding: 8px 0px;
 }    
+
+
+/* Dropdown Menus */
+.dropdown-menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.select{
+    color:var(--color3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.select:hover{
+    background-color: var(--color3);
+    color: var(--color1);
+}
+
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid var(--color3);
+    transition: 0.3s;
+}
+
+.select:hover .caret{
+    border-top: 8px solid var(--color1);
+}
+
+.caret-rotate{
+    transform: rotate(180deg);
+}
+
+.selected{
+    padding-right: 4px;
+    font-weight: 700;
+}
+
+.select-clicked{
+    background-color: var(--color3);
+    color: var(--color1);
+}
+
+.sort-options{
+    display:flex;
+    width: 120px;
+    transform:translateX(-52px);
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.options{
+    list-style: none;
+    padding: 8px 16px;
+    background: var(--color1);
+    border: 1px var(--color3) solid;
+    box-shadow: 1px 4px 11px 1px rgba(55, 105, 182, 0.2);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color3);
+    position: absolute;
+    top: 88px;
+    opacity: 0;
+    display: none;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.options li{
+    padding: 8px 4px;
+    cursor: pointer; 
+    transition: 0.3s;
+}
+
+.options li:hover{
+    background-color: var(--color3);
+}
+
+.options li:hover a{
+    color: var(--color1);
+}
+
+.active a{
+    font-weight: 700;
+}
+
+.options-open{
+    display: block;
+    opacity: 100%;
+    list-style: none;
+    padding: 8px 16px;
+    background: var(--color1);
+    border: 1px var(--color3) solid;
+    box-shadow: 1px 4px 11px 1px rgba(55, 105, 182, 0.2);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color3);
+    position: absolute;
+    top: 88px;
+}
