@@ -1,0 +1,54 @@
+img{
+    width: 8rem;
+}
+
+.product-container{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.product-container .box{
+    position: relative;
+    padding: 8px;
+    box-shadow: 1px 4px 11px 1px rgba(55, 105, 182, 0.2);
+    width: 9rem;
+}
+
+h4{
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    color: var(--color2);
+}
+
+h5{
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    color: var(--color7);
+}
+
+.Tags h6{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color3);
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding: 4px 4px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid var(--color3);
+    transition-duration: 0.4s;
+}
+
+.Tags h6:hover{
+    background-color: rgba(55, 105, 182, 0.6);
+    color: var(--color1);
+    cursor:pointer;
+}
