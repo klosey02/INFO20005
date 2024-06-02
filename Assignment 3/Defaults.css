@@ -1,5 +1,5 @@
 
-
+/* Default Fonts & Colors*/
 * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -15,8 +15,15 @@
     --color4: #F1D6CB;
     --color5: #BED3F0;
     --color6: #06000E; 
+    --color7: #2E2F45;
 }
 
+body{
+    background-color: var(--color1);
+}
+
+
+/* logo design*/
 .logo {
     font-family: "Bona Nova", serif;
     font-weight: 700;
@@ -25,12 +32,9 @@
     font-size: 20px;
 }
 
+/*Navigation*/
 .material-icons {
     color: var(--color2);
-}
-
-body{
-    background-color: var(--color1);
 }
 
 header{
@@ -61,3 +65,26 @@ header nav ul{
     flex-direction: row;
     padding: 0 16px;
 }
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    padding: 32px 32px;
+    background-color: var(--color7);
+    color: var(--color1);
+}
+
+footer h3{
+    color: var(--color1);
+    font-weight: 700;
+
+}
+
+footer ul li a{
+    color: var(--color1);
+}
+
+footer div{
+    padding: 8px 0px;
+}    

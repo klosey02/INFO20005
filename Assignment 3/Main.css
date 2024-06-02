@@ -12,10 +12,11 @@
     align-items: center;
 }
 
-.index-banner h2{
+h2{
     font-size: 12px;
     text-align:center;
     color: var(--color3);
+    font-weight: 500;
     
 } 
 
@@ -27,8 +28,26 @@
     display: inline-block;
     border: 2px solid var(--color3);
     align-items: center;
+    transition-duration: 0.4s;
 }
 .btn-hero{
     background-color: rgba(247, 247, 247, 0.8);
+}
+
+.btn:hover{
+    background-color: var(--color3);
+    color: var(--color1);
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
