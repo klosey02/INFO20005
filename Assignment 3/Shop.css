@@ -5,7 +5,7 @@ img{
 .product-container{
     display: flex;
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
     align-content: center;
@@ -51,4 +51,9 @@ h5{
     background-color: rgba(55, 105, 182, 0.6);
     color: var(--color1);
     cursor:pointer;
+}
+
+.Featured-title{
+    display:flex;
+    justify-content: center;
 }
