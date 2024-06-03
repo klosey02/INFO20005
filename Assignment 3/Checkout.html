@@ -90,10 +90,35 @@
                   <label>
                     <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
                   </label>
-                  <input type="submit" value="Continue to checkout" class="btn">
+                  <button type="button" class="btn" onclick="openPopup()">Place Order</button>
                 </form>
+                <div class="popup" id="popup">
+                    <i class="material-icons">done_outline</i>
+                    <h1>THANK YOU!</h1>
+                    <h2>Your order has been placed successfully!</h2>
+                    <h3>Order ID: #H1PLEASE</h3>
+                    <button type="button" class="btn" onclick="closePopup()">OK</button>
+
+                    <script>
+                        let popup = document.getElementById('popup')
+
+                        function openPopup(){
+                            document.body.scrollTop = 0; 
+                            document.documentElement.scrollTop = 0; 
+                            popup.classList.add('open-popup');
+                        }
+                        
+                        function closePopup(){
+                            popup.classList.remove('open-popup');
+                            window.location.href = "Shop.html";
+                        }
+                    </script>
+                </div>
+                
               </div>
             </div>
+
+
           
             <div class="col-25">
               <div class="container">
