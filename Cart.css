@@ -111,6 +111,11 @@ div .Checkout{
     border: 2px solid var(--color3);
 }
 
+.Checkout a{
+    display: flex;
+    justify-content: center;
+}
+
 .Checkout .btn{
     color: var(--color3);
     font-weight: 700;
