@@ -104,3 +104,12 @@ h5{
     background: var(--color7);
     cursor: pointer;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .Search{
+        height: 55rem;
+        margin-top: 2rem;
+    }
+
+}

@@ -53,3 +53,21 @@ h5{
     cursor:pointer;
 }
 
+@media only screen and (min-width: 768px) {
+    img{
+        width: 12rem;
+    }
+
+    .product-container .box{
+        width: 12rem;
+        padding: 1rem;
+    }
+
+    .dropdown{
+        font-size: 1.4rem;
+    }
+
+    .sort-options.options-open {
+        right: -52px;
+    }
+}

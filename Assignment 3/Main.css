@@ -63,3 +63,16 @@ h2{
     font-weight: 600;
     color: var(--color7);
 }
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+    .index-banner{
+        width: 70%;
+        margin: auto;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+
+}

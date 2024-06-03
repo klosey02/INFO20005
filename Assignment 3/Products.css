@@ -13,6 +13,8 @@
 .slider{
     display: flex;
     aspect-ratio: 3/4;
+    max-height: 40rem;
+    margin: auto;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -61,6 +63,8 @@
 .product-info{
     display: flex;
     justify-content: space-between;
+    max-width: 480px;
+    margin: auto;
 }
 
 
@@ -117,4 +121,27 @@
     background-color: var(--color3);
     color: var(--color1);
     cursor:pointer;
+}
+
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+    .product-info h5{
+        font-size: 2rem;
+    }
+    
+    .tags h6{
+        font-size: 1.4rem;
+    }
+    
+    .product-container h3{
+        font-size: 2rem;
+        
+    }
+
+    .product-description{
+        width: 85%;
+        margin: auto;
+        font-size: 1.2rem;
+    }
 }

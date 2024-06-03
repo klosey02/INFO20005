@@ -86,6 +86,8 @@
 .Subtotal{
     display: flex;
     justify-content: space-between;
+    max-width: 470px;
+    margin: auto;
 }
 
 .Subtotal h3{
@@ -95,6 +97,12 @@
     font-weight: 500;
 }
 
+div .Checkout{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+}
 
 .btn-Checkout{
     padding: 1rem 30%;
@@ -108,4 +116,53 @@
     font-weight: 700;
 }
 
+.Checkout .btn:hover{
+    color: var(--color1);
+    cursor:pointer;
+}
 
+@media only screen and (min-width: 768px) {
+    .Product-img img{
+        width: 10rem;
+    }
+
+    .column-right{
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 6rem;
+    }
+
+    .Product-container{
+        margin-inline: auto;
+    }
+
+    .Cart-container{
+        margin-inline: auto;
+    }
+
+
+    .Subtotal{
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .btn-Checkout {
+        padding: 1.2rem 14rem;
+    }
+
+    .Cart-title h1{
+        font-size: 2rem;
+    }
+
+    .info h3{
+        font-size: 1.2rem;
+    }
+
+    .price h4{
+        font-size: 1.4rem;
+    }
+
+    .info h4 {
+        font-size: 1rem;}
+
+}

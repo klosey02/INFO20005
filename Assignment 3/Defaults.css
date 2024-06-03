@@ -220,3 +220,19 @@ footer div{
     color: var(--color1);
     cursor:pointer;
 }
+
+@media only screen and (min-width: 768px) {
+    header nav ul{
+        justify-content: space-evenly;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .material-icons {
+        font-size: 2rem;
+    }
+
+
+}

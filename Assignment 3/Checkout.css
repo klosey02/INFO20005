@@ -147,12 +147,62 @@ img{
 
 
  
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
+@media only screen and (min-width: 768px) {
     .row {
       flex-direction: column-reverse;
     }
     .col-25 {
       margin-bottom: 20px;
     }
+
+    .prod-cont img{
+        width: 10rem;
+    }
+
+    .column.column-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 50rem;
+    }
+
+    .Product-container{
+        margin-inline: auto;
+    }
+
+    .column-left {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end
+    }
+
+    .prod-cont{
+        margin-inline: auto;
+    }
+        
+    .container h4{
+        font-size: 1.4rem;
+    }
+
+    .info h3{
+        font-size: 1.2rem;
+    }
+
+    .info {
+        width: 16rem;
+    }
+
+    .quantity h3{
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 1.4rem;
+    }
+
+    .open-popup{
+        top: 50%;
+    }
+
+
 }
