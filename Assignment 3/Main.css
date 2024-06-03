@@ -52,3 +52,14 @@ h2{
     margin-bottom: 32px;
 }
 
+
+.Featured-title{
+    display:flex;
+    justify-content: center;
+}
+
+.Featured-title h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--color7);
+}

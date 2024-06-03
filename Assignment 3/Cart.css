@@ -1,0 +1,111 @@
+
+.Cart-title h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color7);
+}
+
+.Cart-container{
+    width: 90%;
+    margin: 1.4rem;
+}
+
+.Product-img{
+    display: flex;
+    align-items: center;
+}
+
+
+.Product-img img{
+    width: 6rem;
+}
+
+.Product-container{
+    display:flex;
+    margin-bottom: 1.2rem;
+    justify-content: center;
+}
+
+.Product-info{
+    display:flex;
+    margin: 0.4rem;
+}
+
+.column{
+    display: flex;
+    flex: 50%;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: stretch
+}
+
+
+.column-left{
+    justify-content: flex-end;
+}
+
+
+.info{
+    width: 8rem;
+}
+
+.info h3{
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.info h4{
+    font-size: 0.6rem;
+    text-decoration: underline;
+}
+
+.quantity{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 1rem;
+}
+
+.quantity span{
+    padding: 0 0.4rem;
+}
+
+.X{
+    display: flex;
+    width: 8rem;
+    justify-content: flex-end;
+
+}
+
+.price h4{
+    font-size: 1rem;
+    margin: 0;
+}
+
+
+.Subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Subtotal h3{
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.btn-Checkout{
+    padding: 1rem 30%;
+    border-radius: 0;
+    display: inline-block;
+    border: 2px solid var(--color3);
+}
+
+.Checkout .btn{
+    color: var(--color3);
+    font-weight: 700;
+}
+
+
