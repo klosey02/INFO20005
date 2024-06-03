@@ -96,13 +96,16 @@ h5{
     color: var(--color1);    
 }
 
-.search-bar button{
+.search-bar .button{
     border: 0;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 3.2rem;
+    height: 3.2rem;
     background: var(--color7);
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
